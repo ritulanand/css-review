@@ -1,0 +1,45 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Poppins;
+    background-color: #333;
+    font-size:16px;
+}
+.card{
+    background-color: #f8f8f8;
+    padding: 84px;
+    border-radius: 23px;
+}
+.title{
+    font-size: 34px;
+    font-family: Merriweather;
+}
+.average-rating{
+    font-size: 26px;
+    font-weight: 500;
+}
+.average-rating-section{
+    font-size: 14px;
+    padding: 17px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 7px 20px 0 rgba(115, 116, 156, .08);
+}
+.star-icon{
+    width: 25px;
+    height: 25px;
+}
+.average-rating-section .star-icon{
+    width :46px;
+    height: 46px;
+
+}
+.star-icon .icon-path{
+    fill: #FFD66C;
+    stroke: #EFB153;
+}
+.header{
+    display: flex;
+}
